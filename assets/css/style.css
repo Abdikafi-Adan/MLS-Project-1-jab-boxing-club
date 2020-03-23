@@ -14,7 +14,7 @@ color: white;
 
 .callout-container{
 height: 100vh;
-background: url(/images/gloves.jpg) no-repeat  right fixed; 
+background: url(../../images/gloves.jpg) no-repeat  right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,7 +59,7 @@ border-color: #fff854 ;
 /*----------------brackground-containers */
 .benefits-container{
 
-background: url(/images/exercise.jpg) no-repeat  right fixed; 
+background: url(../../images/exercise.jpg) no-repeat  right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,7 +73,7 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
     
 }
 .history-container{
-    background: url(/images/old-ring.jpg) no-repeat  right fixed; 
+    background: url(../../images/old-ring.jpg) no-repeat  right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -87,7 +87,7 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
 }
 .equipment-container{
 
-    background: url(/images/boxing-equipment.jpg) no-repeat  right fixed; 
+    background: url(../../images/boxing-equipment.jpg) no-repeat  right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,7 +103,7 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
 }
 
 .gallery-container{
-     background: url(/images/spotlight.jpg) no-repeat  right fixed; 
+     background: url(../../images/spotlight.jpg) no-repeat  right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
