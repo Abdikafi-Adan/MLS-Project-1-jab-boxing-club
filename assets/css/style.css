@@ -55,6 +55,8 @@ border-color: #fff854 ;
     background-color:#444;
     color: white;
 }
+
+/*----------------brackground-containers */
 .benefits-container{
 
 background: url(/images/exercise.jpg) no-repeat  right fixed; 
@@ -69,6 +71,19 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
 
   position: relative;
     
+}
+.history-container{
+    background: url(/images/old-ring.jpg) no-repeat  right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
 }
 .equipment-container{
 
@@ -87,6 +102,20 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
  color: #f4f4f4;   
 }
 
+.gallery-container{
+     background: url(/images/spotlight.jpg) no-repeat  right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
 
 
 /* page heades */
@@ -102,6 +131,23 @@ background: url(/images/exercise.jpg) no-repeat  right fixed;
 
 .quotes .page-header{
     margin-bottom: 45px;
+}
+
+@media (max-width: 576px) {
+.gallery-container h2{
+    font-size: 36px;
+}
+
+}
+/* iframe */
+.embed-responsive {
+    position: relative;
+    display:block;
+    width: 50%;
+    margin-bottom: 5rem;
+    padding: 10rem;
+    overflow: hidden;
+  
 }
 
 /* block divider */
@@ -225,6 +271,12 @@ border-color: #f05f40;
     line-height: 45px;
 } 
 
+.gallery-container i {
+    color: red;
+    margin: 20px;
+}
+
+
 .feature p{
 letter-spacing: 2px;
 font-weight: 300;
@@ -245,10 +297,23 @@ font-size: 23px;
 
 
 }
+
+/*------------- image,iframe */
 img{
     margin: 13px;
    
    
+}
+
+.bg-gallery{
+    background-color: black;
+    margin-top: 25px;
+    text-align: center;
+}
+
+iframe{
+    width: 55%;
+    height: 16rem;
 }
 
 .blockquote {
@@ -262,8 +327,9 @@ footer{
     color: #fafafa;
     min-height: 120px;
     margin:0; 
+
 }
-socail-links{
+.socail-links{
     padding-bottom: 15px;   
 }
 
