@@ -3,12 +3,8 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+
 .container-wrapper{
-
-}
-.container-wrapper--black{
-
-background-color: #f05f40;
 color: white;
 }
 
@@ -23,7 +19,6 @@ background: url(../../images/gloves.jpg) no-repeat  right fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-
   position: relative;
 }
 
@@ -38,23 +33,6 @@ background: url(../../images/gloves.jpg) no-repeat  right fixed;
 } 
 
 
-
-
-.alert-container .col-12{
-padding-right: 0;
-padding-left: 0;
-}
-.site-wide-alert {
-border-radius: 0;
-margin-bottom: 0;
-padding: 5px 15px;
-background-color: #fff854;
-border-color: #fff854 ;
-}
-.monthly-container{
-    background-color:#444;
-    color: white;
-}
 
 /*----------------brackground-containers */
 .benefits-container{
@@ -120,19 +98,6 @@ background: url(../../images/exercise.jpg) no-repeat  right fixed;
 
 /* page heades */
 
-.page-header{
-    margin-bottom:0;
-    border-bottom:0;
-    text-align: center;
-}
-.page-header h2{
-    margin-top: 0;
-}
-
-.quotes .page-header{
-    margin-bottom: 45px;
-}
-
 @media (max-width: 576px) {
 .gallery-container h2{
     font-size: 36px;
@@ -150,6 +115,11 @@ background: url(../../images/exercise.jpg) no-repeat  right fixed;
   
 }
 
+iframe{
+    width: 55%;
+    height: 16rem;
+}
+
 /* block divider */
 
 .blcok-divider {
@@ -163,15 +133,19 @@ background: url(../../images/exercise.jpg) no-repeat  right fixed;
     background-color:#f05f40;
 
 }
-.block-divider--white{
-    background-color: white;
-}
+
 .block-divider--short {
     width:35px;
     
 }
 
+.blockquote {
+    margin-bottom: 5rem;
+    font-size: 1.25rem;
+}
+
 /*  content-containers */
+
 .content-container{
 padding-top: 60px;
 padding-bottom: 60px;
@@ -241,96 +215,119 @@ width: 160px;
 
 }
 
-.btn--red {
+.btn--green {
 color: white;
 background-color: #17c425;
     border-color: #17c425;
 
-
 }
 
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
+.btn--green:hover,
+.btn--green:active,
+.btn--green:focus,
+.btn--green:active:focus {
 background-color: #f05f40;
 border-color: #f05f40;
    
     color: white;
 }
-.feature{
+
+/*--------------Benefits */
+
+.Benefits{
     text-align: center;
     margin-bottom: 25px;
     
 }
-
-.feature i{
+.Benefits i{
     
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
 } 
+.Benefits p{
+letter-spacing: 2px;
+font-weight: 300;
+font-size: 23px;
+
+}
+
+
+/*--------------Gallery */
 
 .gallery-container i {
     color: red;
     margin: 20px;
 }
 
+.gallery{
+     text-align: center;
+    margin-bottom: 25px;
+    
 
-.feature p{
+}
+.gallery i{
+    
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+} 
+.gallery p{
 letter-spacing: 2px;
 font-weight: 300;
 font-size: 23px;
 
-
 }
 
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight:bold;
-    margin-top: 10px;
-    color: #f05f40;
-
-
+/*--------------History */
+.history {
+    margin-bottom: 25px;
 }
 
-/*------------- image,iframe */
+.history .bg-text{
+    text-align: left;
+     background-color: rgba(0, 0, 0, 0.5212);
+}
+.history i{
+    
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;..
+} 
+.history p{
+letter-spacing: 2px;
+font-weight: 300;
+font-size: 23px;
+
+}
+/*------------- image,background-text*/
 img{
     margin: 13px;
-   
-   
 }
 
-.bg-gallery{
-    background-color: black;
+.bg-text{
+    background-color: rgba(0, 0, 0, 0.712);
     margin-top: 25px;
     text-align: center;
-}
-
-iframe{
-    width: 55%;
-    height: 16rem;
-}
-
-.blockquote {
-    margin-bottom: 5rem;
-    font-size: 1.25rem;
+    letter-spacing: 2px;
 }
 
 /*-------------------------------------------------footer */
-footer{
+
+footer {
     background-color: #343a40;;
     color: #fafafa;
     min-height: 120px;
     margin:0; 
 
 }
+
+.i-margin{
+    margin-right: 10px;
+}
 .socail-links{
     padding-bottom: 15px;   
+    margin-right: 10px;
 }
 
 .socail-links li a i {
@@ -349,7 +346,6 @@ transition: all 0.35s ease-in-out;
 -o-transition: all 0.35s ease-in-out;
 
 }
-
 .socail-links li a i:hover{
     background: #e84610;
 }
@@ -373,23 +369,3 @@ h3{
     font-weight: 300;
     color: #fafafa;
 }
-
-.inline-block{
-    display: inline-block;
-}
-
-.row-table{
-    display:table;
-}
-
-.section-cloumn{
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading{
-    font-family: "Exo",sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
