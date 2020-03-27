@@ -102,6 +102,11 @@ background: url(../../images/exercise.jpg) no-repeat  right fixed;
 .gallery-container h2{
     font-size: 36px;
 }
+.iframe{
+    width: 55%;
+    height: 55%;
+}
+
 
 }
 /* iframe */
@@ -116,8 +121,8 @@ background: url(../../images/exercise.jpg) no-repeat  right fixed;
 }
 
 iframe{
-    width: 55%;
-    height: 16rem;
+    width: 92%;
+    height: 19rem;
 }
 
 /* block divider */
@@ -292,7 +297,7 @@ font-size: 23px;
     
     margin-bottom: 20px;
     font-size: 45px;
-    line-height: 45px;..
+    line-height: 45px;
 } 
 .history p{
 letter-spacing: 2px;
