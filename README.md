@@ -138,11 +138,11 @@ he project was edited in Gitpod and pushed and committed to Github repository.
 # Credits
 
 ## Content
-* The text for the Gallery section was copied from [Wikipedia]( https://www.wikipedia.org/)
+* The text for the Gallery section was copied from [Wikipedia]( https://www.wikipedia.org/).
 
-* the text for History page   was copied from [fightclubamerica](http://fightclubamerica.com/about/history-of-boxing/)
-* The text for Benefits section copied from  [fitandme](https://www.fitandme.com/benefits-of-boxing/)
-* The gallery video has embed from youtube.
+* the text for History page   was copied from [fightclubamerica](http://fightclubamerica.com/about/history-of-boxing/).
+* The text for Benefits section copied from  [fitandme](https://www.fitandme.com/benefits-of-boxing/).
+* The gallery video has embed from [youtube](https://www.youtube.com/) .
 
 # Media
 The photos used in this site were obtained from https://unsplash.com/  The internet’s source of freely usable images. Powered by creators everywhere.
