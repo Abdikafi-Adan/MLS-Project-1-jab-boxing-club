@@ -9,12 +9,13 @@ we will help you learn not only the technicalities of boxing but its history and
 
 # UX
 
-This website is for anyone how is intrastate in boxing and would like to know its history. 
-This website is also here to motive people to start boxing and why specifically boxing? by showcasing, 
-the benefits of boxing has on your health and body to help those how are intrastate to make up their mind and start. 
-One of Jab boxing's core goals is to motivate people to start boxing but also to give them some role models to look up to and be motivated by their success, 
-by showcasing videos of some of the greatest boxes in history and a summary of the life.
-JJab boxing is designed simple and easy to understand way, by providing clear deadlines on different parts of the website.
+This website is for anyone how is interested in boxing and would like to know its history. 
+This website is also here to motive people to start boxing and why specifically boxing? 
+We will do this by showcasing, 
+the benefits boxing has on our health and body to help people who are interested to get started. 
+One of Jab boxing's core goals is to motivate people to start boxing but also to give its members role models they can look up to and be motivated by. For this purpose 
+we will be having courses on the greatest boxers in history and a summary of their lifes.
+JJab boxing website is designed in a simple and easy to understand way that creates a pleasureble experianxe for its users
 
 ### This website consists of the following segments:
 
@@ -25,17 +26,19 @@ JJab boxing is designed simple and easy to understand way, by providing clear de
 
 2. __History__ – The history page is straight forward and only contains the history of boxing.
 
-3. __Gallery__– In the gallery section we have the hall of fame where videos of the greatest boxes are showcased to inspire and motivate the user. 
+3. __Gallery__– In the gallery section we have the hall of fame where videos of the greatest boxers are showcased to inspire and motivate the user. 
 
 # User Story 
 
 ### User Questions that the Jab boxing answers:
  
+* what equipment are needed for boxing and why?
 * What benefits does boxing have and how can it help me?
-* information on boxing and its history?
-* boxing motivation?
+* How can I get started?
+* Information on boxing and its history?
+* Boxing motivation?
 * Boxing's greatest fights?
-* what equipment are need to boxing and why?
+
 
 # Features
 
@@ -92,7 +95,7 @@ for the user to get more information or be up to date with new content and infor
 
 * __CSS Validator__ for testing the CSS code.
 
-* __Google Chrome Developer Tools__ for testing different device sizes.
+* __Google Chrome Developer Tools__ for testing different display sizes.
 
 # __Testing process__
 
@@ -123,8 +126,8 @@ the drop-down menu works as intended in all devices.
 
 # Deployment
 
-The project was created by using the services of GitHub and the GitPod IDE.t
-he project was edited in Gitpod and pushed and committed to Github repository.
+The project was created by using the services of GitHub and the GitPod IDE.
+The project was edited in Gitpod and pushed and committed to Github repository.
 
 ### To deploy the live  website on GitHub Pages, I applied followed the following steps:
 1. Navigate to the project’s repository
@@ -151,4 +154,4 @@ The photos used in this site were obtained from https://unsplash.com/  The inter
 * I received inspiration for this project from one of the video-based modules. Whiskey Drop that  I in the video-based lessons was awesome and liked this design that why a usest it as an inspiration.
 
 # Disclaimer
-This project is for __educational__ purposes only and will not be use business or advertising.
+This project is for __educational__ purposes only and will not be used in business or advertising.
