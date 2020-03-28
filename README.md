@@ -1,5 +1,5 @@
 
-# Jab Boxing lub
+# Jab Boxing Club
 
 
 # Introduction  
